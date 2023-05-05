@@ -1,20 +1,18 @@
-		.mdl-layout {
-			align-items: center;
-			justify-content: center;
-			height: 100%;
-		}
-		.mdl-card {
-			min-width: 320px;
-		}
-		.mdl-textfield {
-			width: 100%;
-		}
-		.fo {
-		  text-align: center;
-		  color:#b3b3b3;
-		  
-		}
-		.hasil {
-		  padding-top:1.5rem;
-		  
-		}
+.mdl-layout {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.mdl-card {
+  min-width: 320px;
+}
+.mdl-textfield {
+  width: 100%;
+}
+.fo {
+  text-align: center;
+  color: #b3b3b3;
+}
+.hasil {
+  padding-top: 1.5rem;
+}
