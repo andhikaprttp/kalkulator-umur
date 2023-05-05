@@ -1,10 +1,10 @@
 function hitungUmur() {
-  var tanggalLahir = new Date(document.getElementById("tanggal-lahir").value);
-  var hariIni = new Date();
+  let tanggalLahir = new Date(document.getElementById("tanggal-lahir").value);
+  let hariIni = new Date();
 
-  var tahun = hariIni.getFullYear() - tanggalLahir.getFullYear();
-  var bulan = hariIni.getMonth() - tanggalLahir.getMonth();
-  var hari = hariIni.getDate() - tanggalLahir.getDate();
+  let tahun = hariIni.getFullYear() - tanggalLahir.getFullYear();
+  let bulan = hariIni.getMonth() - tanggalLahir.getMonth();
+  let hari = hariIni.getDate() - tanggalLahir.getDate();
 
   if (bulan < 0 || (bulan === 0 && hari < 0)) {
     tahun--;
