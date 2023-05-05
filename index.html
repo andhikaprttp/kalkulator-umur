@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kalkulator Umur</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-	<link rel="stylesheet" href="style.css">
+  <title>Kalkulator Umur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="mdl-layout mdl-js-layout">
-		<main class="mdl-card mdl-shadow--2dp">
-			<div class="mdl-card__title">
-				<h2 class="mdl-card__title-text">Kalkulator Umur</h2>
-			</div>
-			<div class="mdl-card__supporting-text">
-				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-					<input class="mdl-textfield__input" type="date" id="tanggal-lahir">
-					<label class="mdl-textfield__label" for="tanggal-lahir">Tanggal Lahir Mu</label>
-				</div>
-				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="hitungUmur()">Hitung</button>
-				<p class="hasil" id="hasil-umur"></p>
-			</div>
-			<footer>
-			  <p class="fo">© andhika pratama putra</p>
-			</footer>
-		</main>
-	</div>
-	<script src="script.js"></script>
-		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <div class="mdl-layout mdl-js-layout">
+    <main class="mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Kalkulator Umur</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="date" id="tanggal-lahir">
+          <label class="mdl-textfield__label" for="tanggal-lahir">Tanggal Lahir Mu</label>
+        </div>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="hitungUmur()">Hitung</button>
+        <p class="hasil" id="hasil-umur"></p>
+      </div>
+      <footer>
+        <p class="fo">
+          © andhika pratama putra
+        </p>
+      </footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 </html>
