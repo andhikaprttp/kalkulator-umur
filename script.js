@@ -1,7 +1,7 @@
 function hitungUmur() {
   let tanggalLahir = new Date(document.getElementById("tanggal-lahir").value);
   let hariIni = new Date();
-  
+
   let tahun = hariIni.getFullYear() - tanggalLahir.getFullYear();
   let bulan = hariIni.getMonth() - tanggalLahir.getMonth();
   let hari = hariIni.getDate() - tanggalLahir.getDate();
